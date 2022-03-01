@@ -1,0 +1,1 @@
+{"constants":["print","a"],"instructions":[{"code":2,"data":[0,1]},{"code":15,"data":[3]},{"code":1,"data":[1,4]},{"code":4,"data":[1,[3,4],2]}]}

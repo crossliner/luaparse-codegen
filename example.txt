@@ -1,0 +1,25 @@
+LOAD k0 r1
+SETVAR r1 k1
+LOAD k2 r2
+GETVAR k1 r3
+LOAD k3 r4
+ADD r3 r4 r5
+SETVAR r5 k1
+GETVAR k4 r6
+GETVAR k1 r8
+CALL r6 r[r8] r7
+GETVAR k1 r9
+LOAD k5 r10
+EQ r9 r10 r11
+JUMPIF r11 PC14
+JUMP PC16
+JUMP PC17
+JUMP PC16
+JUMPIF r2 PC2
+
+k0: 0
+k1: a
+k2: true
+k3: 1
+k4: print
+k5: 2
